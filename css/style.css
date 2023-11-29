@@ -1,3 +1,8 @@
+:root{
+    --color:#232323
+}
+
+
 /* reset */
 
 *{
@@ -28,6 +33,10 @@ a{
     color: inherit;
 }
 
+i{
+    font-size: 12px;
+    
+}
 
 /* utlis */
 
@@ -42,6 +51,30 @@ a{
 
 .debug{
     min-height: 80px;
-    background-color: rgb(216, 163, 98);
+    background-color: rgb(0, 0, 0);
     padding: 2rem;
+}
+
+/* header */
+.top-bar{
+
+    color: aliceblue;
+    min-height: 120px;
+    text-align: end;
+    padding: 10px;
+}
+
+.top-bar span{
+  
+    background-color:#494949 ;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.fa-anchor{
+    margin-left: 10px;
+    padding: 8px;
+    background-color:#494949 ;
+    border-radius: 8px;
 }
