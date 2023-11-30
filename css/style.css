@@ -43,7 +43,7 @@ i{
 .container{
     max-width: 1700px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 15px;
 
 }
 
@@ -51,11 +51,11 @@ i{
 
 /* debug */
 
-.debug{
+/* .debug{
     min-height: 80px;
     background-color: rgb(0, 0, 0);
     padding: 2rem;
-}
+} */
 
 /* header */
 .top-bar{
@@ -67,6 +67,7 @@ i{
     /* position: fixed; */
     width: 100%;
     z-index: 1;
+    background-color: #222222;
 }
 
 .top-bar span{
@@ -86,18 +87,19 @@ i{
 }
 
 main{
-    height: calc(100vh - 120px 100px);
+    
     background-color: black;
-    overflow: hidden;
+    
     display: flex;
 }
 
 .wrapper{
-    width: 100%;
+    height: calc(100vh - 120px - 100px);
+   width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .card{
@@ -107,13 +109,15 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
+    
 
 }
 
 .credenziali{
     position: absolute;
     font-size: 12px;
-    top: 140px;
+    top: 80px;
     background-color: #4949497a;
     padding: 3px;
     color: aliceblue;
