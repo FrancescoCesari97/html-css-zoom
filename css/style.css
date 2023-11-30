@@ -70,20 +70,22 @@ i{
     background-color: #222222;
 }
 
-.top-bar span{
-  
+.top-bar button{
+    color: aliceblue;
     background-color:#494949 ;
     font-size: 12px;
     border-radius: 8px;
     padding: 8px;
+    border: none;
    
 }
 
 .fa-anchor{
-    margin-left: 10px;
-    padding: 8px;
+   
+    padding: 2px;
     background-color:#494949 ;
     border-radius: 8px;
+    font-size: 12px;
 }
 
 main{
@@ -95,7 +97,7 @@ main{
 
 .wrapper{
     height: calc(100vh - 120px - 100px);
-   width: 100%;
+   width: 90%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -207,7 +209,7 @@ footer{
     justify-content: center;
     align-items: center;
     color: aliceblue;
-    
+    gap: 5px;
 }
 
 .center-bar i{
